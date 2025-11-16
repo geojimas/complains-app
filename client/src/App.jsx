@@ -1,18 +1,14 @@
-import { Button } from 'primereact/button';                             
-import { Card } from 'primereact/card';
 
 function App() {
 
   return (
-    <div>
-      <Card title="Simple Card">
-    <p className="m-0">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae 
-        numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
-    </p>
-</Card>
-      <Button>Click me</Button>
-    </div>
+<div className="container">
+    <div className="container_header">1</div>
+    <div className="container_left-side">2</div>
+    <div className="container_right-side">3</div>
+    <div className="container_middle-side">4</div>
+    <div className="container_bottom-side">5</div>
+</div>
   )
 }
 
