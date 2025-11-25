@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/dist/',   // <--- ensures built JS/CSS paths are /dist/assets/...
 });
